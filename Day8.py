@@ -63,5 +63,5 @@ if __name__ == '__main__':
         for line in f.readlines():
             grid.append(list(map(int, line.strip())))
 
-    print(solve_part_1(grid))
-    print(solve_part_2(grid))
+    print("Part 1:",solve_part_1(grid))
+    print("Part 2:",solve_part_2(grid))
